@@ -300,6 +300,7 @@ for i in tqdm(range(2,116)):
         d[seconda_meta] -= 1                 # Rimuovo un posto dalla meta
         
         summary_excel.value= f'Entrato nella seconda scelta a {seconda_meta}, Posti rimasti {d[seconda_meta]}'
+   
 
     
     elif d.get(seconda_meta) == -1:          # il valore -1 è stato assegnato alle key che ha come valore 'void' (cella vuota)
@@ -307,6 +308,14 @@ for i in tqdm(range(2,116)):
         prima_meta_excel.fill = redFill
         seconda_meta_excel.fill = redFill
         
+        summary_excel.value= 'Tutte le sedi sono state prese'
+
+        
+    elif d.get(terza_meta) == -1:   
+
+        prima_meta_excel.fill = redFill
+        seconda_meta_excel.fill = redFill
+        terza_meta_excel.fill = redFill
         summary_excel.value= 'Tutte le sedi sono state prese'
         
     elif d[terza_meta] > 0:   
