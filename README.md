@@ -5,9 +5,9 @@ Raccolta di Script che automatizzano il processo di raccolta dati per l'assegnaz
 Non essendo stato testato a fondo, consiglio un controllo ulteriore a mano per la corretta assegnazione dei posti
 
 # Requisiti:
+- Firefox
 - Python 3.6 o superiore
 - Alcuni moduli che si trovano nel file requirements.txt
-- Driver per far partire Selenium, nel caso si voglia provare a vedere come funziona la raccolta di dati dal sito ErasmusManager (Guida per la corretta Installazione di Selenium: https://www.seleniumeasy.com/python/getting-started-selenium-webdriver-using-python)
 
 # Installazione e Set-up per Windows:
 
