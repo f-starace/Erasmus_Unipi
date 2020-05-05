@@ -1,7 +1,7 @@
 
 https://www.python.org/downloads/windows/
 
-Seleziona: 
+1) Seleziona: 
 
 - Windows x86-64 executable installer [Per sistemi a 64-bit]
 https://www.python.org/ftp/python/3.8.3/python-3.8.3rc1-amd64.exe
@@ -15,11 +15,11 @@ https://www.python.org/ftp/python/3.8.3/python-3.8.3rc1.exe
 
 
 
-Spunta Aggiungi Python a PATH:
+2) Spunta Aggiungi Python a PATH:
 
 <img width="564" alt="Schermata 2020-05-05 alle 14 08 58" src="https://user-images.githubusercontent.com/64803153/81064464-066c5880-8eda-11ea-91ec-004e4c92dc48.png">
 
 
-Disabilita Path Limit Lenght
+3) Disabilita Path Limit Lenght
 
 
