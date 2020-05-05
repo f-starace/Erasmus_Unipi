@@ -9,6 +9,38 @@ Non essendo stato testato a fondo, consiglio un controllo ulteriore a mano per l
 - Alcuni moduli che si trovano nel file requirements.txt
 - Driver per far partire Selenium, nel caso si voglia provare a vedere come funziona la raccolta di dati dal sito ErasmusManager (Guida per la corretta Installazione di Selenium: https://www.seleniumeasy.com/python/getting-started-selenium-webdriver-using-python)
 
+# Installazione e SetUp per Windows:
+
+1) Scarica il browser Firefox (se non presente)
+
+2) Scarica Python al seguente Link
+
+- Windows x86-64 executable installer [Per sistemi a 64-bit]
+https://www.python.org/ftp/python/3.8.3/python-3.8.3rc1-amd64.exe
+
+
+- Windows x86 executable installer    [Per sistemi a 32-bit] 
+https://www.python.org/ftp/python/3.8.3/python-3.8.3rc1.exe
+
+
+3) Prosegui con l'installazione, facendo attenzione di spuntare la casella 'Aggiungi Python a Path':
+
+<img width="564" alt="Schermata 2020-05-05 alle 14 08 58" src="https://user-images.githubusercontent.com/64803153/81064464-066c5880-8eda-11ea-91ec-004e4c92dc48.png">
+
+
+4) Al termine dell'installazione disabilita il Path Limit Lenght
+
+
+
+4) Sul prompt dei comandi digitare:
+
+pip install -r (path)requirements.txt
+Sostituendo (path) con il path che contiene il filee requirements
+
+
+
+
+
 
 # Note:
 - Funziona solo per i candidati iscritti al CdL di Medicina e Chirurgia. Ulteriori CdL possono essere aggiunti in futuro
