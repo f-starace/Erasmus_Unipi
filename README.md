@@ -75,7 +75,7 @@ Nel caso non lo fossero verrà chiesta la risoluzione del conflitto:
 ![](/images/5,3.png)
 
 
-Nel caso fosse stata scelta dal candidato una meta nel rientrante tra quelle del proprio CdL, questa potrà essere eliminata semplicemente premendo invio e confermando con y
+Nel caso fosse stata scelta dal candidato una meta non rientrante tra quelle del proprio CdL, questa potrà essere eliminata semplicemente premendo invio e confermando con y
 
 ![](/images/5,4.png)
 
