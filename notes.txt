@@ -1,0 +1,38 @@
+
+A questo indirizzo e-mail è associata l'API key per interagire con Google Drive e Google Sheets
+
+
+mail = 'unipi.erasmus.py@gmail.com'
+psw = 'MedUniPi'
+
+
+
+Queste parti di codice potrebbero essere utili in futuro
+
+
+# Creating the Student Class
+class Student():
+    def __init__(self, name,priority, M_P, P_L, R_S, NS, NA, AI, AC):
+        
+    
+
+# Student Identification
+Matricole_list = s.getColumn('A')
+Nomi_list = s.getColumn('B')
+
+# Student Data
+Punteggi_list = s.getColumn('C')
+Medie_list = s.getColumn('D')
+P_Lode = 30
+Rendimenti_list = s.getColumn('E')
+NS_list = s.getColumn('F')
+NA_list = s.getColumn('H')
+AI_list = s.getColumn('I')
+AC_list = s.getColumn('J')
+
+#Choises 
+first_choice_list = s.getColumn('M')
+second_choice_list = s.getColumn('N')
+third_choice_list = s.getColumn('O')
+
+

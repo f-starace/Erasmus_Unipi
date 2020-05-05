@@ -1,0 +1,21 @@
+# QUESTO SCRIPT funziona solo per versioni di Python 3.4 o superiori!
+
+
+# Per poter caricare lo script occorre eseguire il comando:
+# pip3 install -r requirements.txt
+# !NOTA!    Assicurati di essere nel path corretto tramite terminale o usa il fullpath di questo file
+
+# Se dovessero esserci problemi puoi installare manualmente questi pacchetti singolarmente
+# e.g. pip3 install requests
+
+
+
+datetime
+tqdm
+openpyxl
+ezsheets
+selenium
+
+
+
+
