@@ -9,7 +9,7 @@ Non essendo stato testato a fondo, consiglio un controllo ulteriore a mano per l
 - Alcuni moduli che si trovano nel file requirements.txt
 - Driver per far partire Selenium, nel caso si voglia provare a vedere come funziona la raccolta di dati dal sito ErasmusManager (Guida per la corretta Installazione di Selenium: https://www.seleniumeasy.com/python/getting-started-selenium-webdriver-using-python)
 
-# Installazione e SetUp per Windows:
+# Installazione e Set-up per Windows:
 
 1) Scarica il browser Firefox (se non presente)
 
