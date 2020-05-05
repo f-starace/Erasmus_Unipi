@@ -91,6 +91,7 @@ def SeatsAviable(sheet, code_column, seats_column):
             d[sheet[f'{code_column}{index}']] = num_seats      #To assign a value to a key => d[key] = value
     
     d['void'] = -1
+    d[''] = -1
             
    
     return d
@@ -289,8 +290,15 @@ for i in tqdm(range(2,116)):
         
         summary_excel.value = f'Entrato nella prima scelta a {prima_meta}, Posti rimasti {d[prima_meta]}'
     
-
+    
+    elif d.get(seconda_meta) == -1:          # il valore -1 è stato assegnato alle key che ha come valore 'void' (cella vuota)
         
+        prima_meta_excel.fill = redFill
+        seconda_meta_excel.fill = redFill
+        
+        summary_excel.value= 'Tutte le sedi sono state prese'
+    
+
 
     elif d[seconda_meta] > 0:   
     
@@ -300,23 +308,14 @@ for i in tqdm(range(2,116)):
         d[seconda_meta] -= 1                 # Rimuovo un posto dalla meta
         
         summary_excel.value= f'Entrato nella seconda scelta a {seconda_meta}, Posti rimasti {d[seconda_meta]}'
-   
+
 
     
     elif d.get(seconda_meta) == -1:          # il valore -1 è stato assegnato alle key che ha come valore 'void' (cella vuota)
         
-        prima_meta_excel.fill = redFill
-        seconda_meta_excel.fill = redFill
-        
+        prima_meta_excel.fill = redFill        
         summary_excel.value= 'Tutte le sedi sono state prese'
-
-        
-    elif d.get(terza_meta) == -1:   
-
-        prima_meta_excel.fill = redFill
-        seconda_meta_excel.fill = redFill
-        terza_meta_excel.fill = redFill
-        summary_excel.value= 'Tutte le sedi sono state prese'
+    
         
     elif d[terza_meta] > 0:   
         
