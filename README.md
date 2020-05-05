@@ -80,7 +80,7 @@ Nel caso fosse stata scelta dal candidato una meta nel rientrante tra quelle del
 ![](/images/5,4.png)
 
 
-![](/images/5,5.png)
+![](/images/5.5.png)
 
 
 Infine viene creato un file excel nella cartella dello script chiamato results.xlsx
