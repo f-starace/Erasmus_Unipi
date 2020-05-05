@@ -1,1 +1,13 @@
 
+https://www.python.org/downloads/windows/
+
+Seleziona: 
+- Windows x86-64 executable installer [64-bit]
+oppure:
+- Windows x86 executable installer    [32-bit] 
+
+
+
+
+
+Disable the path limit length
