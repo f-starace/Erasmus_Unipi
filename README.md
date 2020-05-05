@@ -70,9 +70,9 @@ Nel caso non lo fossero verrà chiesta la risoluzione del conflitto:
 
 
 
-![](/images/5 2:3.png)
+![](/images/5,2.png)
 
-![](/images/5 3:3.png)
+![](/images/5,3.png)
 
 
 
