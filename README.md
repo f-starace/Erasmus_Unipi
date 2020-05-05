@@ -18,4 +18,3 @@ Non essendo stato testato a fondo, consiglio un controllo ulteriore a mano per l
 
 # Funzionamento:
 
-
