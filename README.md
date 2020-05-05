@@ -39,6 +39,10 @@ Sostituendo (path) con il path che contiene il filee requirements
 
 
 
+# Set-up di Google Sheets:
+- Ottieni link condivisibile nel foglio google e permetti la modifica 
+
+<img width="390" alt="Schermata 2020-05-05 alle 16 58 50" src="https://user-images.githubusercontent.com/64803153/81081115-cb761f00-8ef1-11ea-85f8-85de85243125.png">
 
 
 
