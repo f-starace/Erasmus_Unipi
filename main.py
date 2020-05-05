@@ -128,7 +128,7 @@ def CodeCheck(dictionary, graduatory_sheet):
     pattern = r'\d\d\d\d\d\d' 
     
     
-    for i in range(1,200):
+    for i in range(1,116):
         
         matricola = graduatory_sheet[f'A{i}']
         
