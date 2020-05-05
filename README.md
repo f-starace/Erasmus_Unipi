@@ -11,10 +11,10 @@ Non essendo stato testato a fondo, consiglio un controllo ulteriore a mano per l
 
 
 # Note:
-- Funziona solo per i candidati iscritti al CdL di Medicina e Chirurgia. Ulteriori CdL potrebbero però poter essere aggiunti facilmente in futuro
+- Funziona solo per i candidati iscritti al CdL di Medicina e Chirurgia. Ulteriori CdL possono essere aggiunti in futuro
 - Per attivare lo script, eseguire il file main.py
 - ErasmusManager.py può essere eseguito sia come script a se stante, sia come modulo di main.py
-- ErasmusScoreCalculator.py non è integrato all'interno dello script principale. Potrebbe essere comodo in futuro però per calcolare il punteggio dei candidati con il minore sforzo possibile.
+- ErasmusScoreCalculator.py non è integrato all'interno dello script principale. Può tornare comodo in futuro però per calcolare il punteggio dei candidati con il minore sforzo possibile.
 
 # Funzionamento:
 
@@ -75,11 +75,26 @@ Nel caso non lo fossero verrà chiesta la risoluzione del conflitto:
 ![](/images/5,3.png)
 
 
+Nel caso fosse stata scelta dal candidato una meta nel rientrante tra quelle del proprio CdL, questa potrà essere eliminata semplicemente premendo invio e confermando con y
+
+![](/images/5,4.png)
 
 
-Infine viene creato un file excel nella cartella dello script chiamatoo results.xlsx
+![](/images/5,5.png)
+
+
+Infine viene creato un file excel nella cartella dello script chiamato results.xlsx
 
 
 
 ![](/images/6.png)
+
+
+
+![](/images/res1.png)
+
+
+![](/images/res2.png)
+
+
 
