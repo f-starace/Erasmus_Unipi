@@ -36,7 +36,7 @@ https://www.python.org/ftp/python/3.8.3/python-3.8.3rc1.exe
 
 pip install -r (path)requirements.txt
 
-Sostituendo (path) con il path che contiene il filee requirements
+Sostituendo (path) con il path che contiene il file requirements
 
 
 
