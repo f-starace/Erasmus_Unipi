@@ -1,6 +1,4 @@
 
-https://www.python.org/downloads/windows/
-
 1) Seleziona: 
 
 - Windows x86-64 executable installer [Per sistemi a 64-bit]
