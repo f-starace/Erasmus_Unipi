@@ -17,3 +17,5 @@ Non essendo stato testato a fondo, consiglio un controllo ulteriore a mano per l
 - ErasmusScoreCalculator.py non è integrato all'interno dello script principale. Potrebbe essere comodo in futuro però per calcolare il punteggio dei candidati con il minore sforzo possibile.
 
 # Funzionamento:
+
+
