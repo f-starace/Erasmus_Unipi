@@ -23,3 +23,10 @@ https://www.python.org/ftp/python/3.8.3/python-3.8.3rc1.exe
 3) Disabilita Path Limit Lenght
 
 
+
+4) Sul prompt dei comandi digitare:
+
+pip
+python -m pip install –upgrade pip
+pip install -r PATHTOREQUIREMENTS.txt
+
